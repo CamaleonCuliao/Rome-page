@@ -1,0 +1,366 @@
+body{
+    width: 1900px;
+    height: 1080px;
+    margin: 0px 0px;
+    max-width: 1920px;
+}
+
+
+/* Header */
+header{
+    width: 1900px;
+    height: 100px;
+    max-width: 1920px;
+    background-color: #7E1313;
+}
+
+#logo{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 65px;
+    height: 90px;
+    float: left;
+    transition: 0.2s;
+    bottom: 0px; /* Resetea el Bottom a 0px */
+}
+
+#logo:hover{
+    transition: 0.2; /* Funcion de transicion (a donde va y durante cuanto tiempo)*/
+    bottom: 3px; /* Cuando este el raton sobre el icono que se mueva 3 pixeles hacia arroiba*/
+}
+
+/* NAV del header*/
+#nav4{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 150px;
+    height: 100px;
+    transition: 1s;
+}
+
+#nav4:hover{
+    transition: 1s;
+    background-color: #6d0d0d;
+}
+
+#navt4{
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+}
+
+#nav3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 150px;
+    height: 100px;
+    transition: 1s;
+}
+
+#nav3:hover{
+    transition: 1s;
+    background-color: #6d0d0d;
+}
+
+#navt3{
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+}
+
+#nav2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 150px;
+    height: 100px;
+    transition: 1s;
+}
+
+#nav2:hover{
+    transition: 1s;
+    background-color: #6d0d0d;
+}
+
+#navt2{
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+}
+
+#nav1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 150px;
+    height: 100px;
+    transition: 1s;
+}
+
+#nav1:hover{
+    transition: 1s;
+    background-color: #6d0d0d;
+}
+
+#navt1{
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+}
+/* NAV del header*/
+/* Header */
+
+/* Main */
+/* Slideshow de imagenes */
+#main1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1900px;
+    height: 700px;
+    max-width: 1920px;
+    background-color: black;
+    background: #000000;
+    background-blend-mode: normal;
+    box-shadow: inset 0px -62px 50px -30px rgba(100,100,100,0.5); /* Bos shadow para poner la sombre, inset para ponerla dentro, y luego decir porque lado entra y su color y opacidad */
+}
+
+#cesar{
+    float: right;
+    margin-left: 200px;
+    margin-top: 4px;
+    position: relative;
+    animation: movimiento3 2s normal;
+}
+
+@keyframes movimiento3{
+    from{right: -50px; opacity: 0%;}
+    to{right: 0px; opacity: 100%;}
+}
+
+#maint1{
+    margin-left: 0px;
+    width: 285px;
+    height: 470px;
+    font-size: 144px;
+    color: white;
+    float: left;
+    position: relative;
+    animation: movimiento1 2s normal;
+}
+
+@keyframes movimiento1{
+    from{left: -50px; opacity: 0%;}
+    to{left: 0px; opacity: 100%;}
+}
+
+#maint2{
+    float: left;
+    font-size: 24px;
+    margin-top: 467px;
+    color: white;
+    position: relative;
+    animation: movimiento1 2s normal;
+}
+@keyframes movimiento1{
+    from{left: -50px; opacity: 0%;}
+    to{left: 0px; opacity: 100%;}
+}
+
+/* Slideshow de imagenes*/
+/* Extra */
+#extra{
+    float: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 115px;
+    width: 477px;
+    height: 100px;
+    background-color: #7E1313;
+    background-blend-mode: normal;
+    box-shadow: inset 0px 60px 50px -30px rgba(46,0,0,0.5);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 1s;
+}
+
+#extra:hover {
+    transition: 1s;
+    background-color: #6d0d0d;
+}
+
+#extrat{
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+}
+
+#extra1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    float: left;
+    margin-left: -477px;
+    margin-top: 110px;
+    width: 477px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#extra1img{
+    height: 200px;
+    width: 233px;
+    margin-left: 200px;
+}
+
+#extratext1{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 1s
+}
+
+#box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 477px;
+    height: 200px;
+    opacity: 0%;
+    transition: 1s;
+}
+
+#box1:hover{
+    transition: 1s;
+    background-color: black;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+#extra2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    float: left;
+    margin-top: 110px;
+    margin-left: 10px;
+    width: 477px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#extra2img{
+    height: 200px;
+    width: 150px;
+    margin-left: 200px;
+}
+
+#extratext2{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 1s
+}
+
+#box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 477px;
+    height: 200px;
+    opacity: 0%;
+    transition: 1s;
+}
+
+#box2:hover{
+    transition: 1s;
+    background-color: black;
+    border-radius: 10px;
+    opacity: 60%;
+}
+
+#extra3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    float: left;
+    margin-top: 110px;
+    margin-left: 10px;
+    width: 477px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#extra3img{
+    height: 230px;
+    width: 180px;
+    margin-left: 200px;
+}
+
+#extratext3{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 1s
+}
+
+#box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 477px;
+    height: 200px;
+    opacity: 0%;
+    transition: 1s;
+}
+
+#box3:hover{
+    transition: 1s;
+    background-color: black;
+    border-radius: 10px;
+    opacity: 70%;
+}
+/* Extra */
+
+/* Footer */
